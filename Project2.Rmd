@@ -3,8 +3,7 @@ title: "Statistical Inference Course Project 1"
 author: "Chuk Yong"
 date: "6 September 2016"
 output: 
-  html_document:
-    keep_md: true
+  word_document
 ---
 ## Coursera Statistical Inference Course Project Part 2: Basic Inferential Data Analysis Instructions
 
@@ -109,7 +108,7 @@ t.test(OJdose2$len, VCdose2$len, alternative = "greater")
 P value is higher than 0.05.  
 We cannot reject the null hypothesis: at dosage of 2mg, there is no significant difference between the two supplement  
 
-###Conclusiong for Hypothesis Testing 2
+###Conclusion for Hypothesis Testing 2
 **For dosages of 0.5mg and 1mg, there are significant differences: OJ is better than VC in promoting tooth growth.  At 2mg however, there is no significant differences.**
 
 
